@@ -2,11 +2,11 @@
 | :---- | :------ | :---- |
 | [![Build Status](https://stratisplatformuk.visualstudio.com/Enigma/_apis/build/status/FederatedSidechains-CI-win-hosted)](https://stratisplatformuk.visualstudio.com/Enigma/_build/latest?definitionId=11) | [![Build Status](https://stratisplatformuk.visualstudio.com/Enigma/_apis/build/status/FederatedSidechains-CI-macOs-hosted)](https://stratisplatformuk.visualstudio.com/Enigma/_build/latest?definitionId=12) | [![Build Status](https://stratisplatformuk.visualstudio.com/Enigma/_apis/build/status/FederatedSidechains-CI-ubuntu-hosted)](https://stratisplatformuk.visualstudio.com/Enigma/_build/latest?definitionId=14)
 
-Stratis Federated Sidechains - Testnet Alpha Release
+Impleum Federated Sidechains - Testnet Alpha Release
 ============================
-https://stratisplatform.com
+https://impleum.com
 
-Welcome to the Stratis Federated Sidechains Alpha.  This release introduces our Federated Gateway technology running a new sidechain, the Apex blockchain, on testnet. We also introduce newly extended wallet functionality that allows cross-chain transactions: Deposits and Withdrawals to and from the Sidechain.
+Welcome to the Impleum Federated Sidechains Alpha.  This release introduces our Federated Gateway technology running a new sidechain, the Apex blockchain, on testnet. We also introduce newly extended wallet functionality that allows cross-chain transactions: Deposits and Withdrawals to and from the Sidechain.
 
 In this alpha, advanced users can create their own new sidechain network, with their own coin, and fund it via with TSTRAT through their own federation. However, a great way to get started is to try our pre-setup Apex network which has everything you need to try out the end product.  You can setup two wallets, a Impleum Mainchain wallet and a Apex Sidechain wallet and perform cross-chain Deposits and Withdrawals.
 
@@ -22,13 +22,13 @@ In this section we will first setup a TSTRAT wallet and fund it with testnet STR
 ```
 git clone http://github.com/impleum/federatedsidechains
 git clone http://github.com/impleum/fullnodeui -b sidechains-ui
-git clone http://github.com/impleum/stratisbitcoinfullnode
+git clone http://github.com/impleum/impleumbitcoinfullnode
 ```
 
 #### Running the blockchains
 
 3. Create two folders for your sidechain and mainchain data.  Such as 'Mainchain' and 'Sidechain'.
-4. Navigate to ImpleumBitcoinFullNode\src\Impleum.StratisD and start the full node as a normal impleum node.
+4. Navigate to ImpleumBitcoinFullNode\src\Impleum.ImpleumD and start the full node as a normal impleum node.
 
 ```
 dotnet run -testnet -datadir=<full path to Mainchain folder you created in Step 3>
